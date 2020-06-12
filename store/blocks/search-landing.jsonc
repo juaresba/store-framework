@@ -1,0 +1,27 @@
+{
+  "store.custom#landing": {
+    "blocks": [
+      "image#landingbanner", 
+      "search-result-layout.customQuery"
+    ]
+  },
+
+  "image#landingbanner": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://poltronanerd.com.br/wp-content/uploads/2019/11/poltrona-con-air-cage-1140x570.jpg"
+    }
+  }, 
+
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "query": "Blue Top Retro Camera",
+        "mapField": "ft"
+      }
+    }
+  }
+}
